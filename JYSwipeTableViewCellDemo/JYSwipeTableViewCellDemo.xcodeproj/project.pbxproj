@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D768ACA21EC16D5F0097CAC7 /* JYSwipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D768ACA01EC16D5F0097CAC7 /* JYSwipeTableViewCell.swift */; };
+		D768ACA31EC16D5F0097CAC7 /* JYSwipeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D768ACA11EC16D5F0097CAC7 /* JYSwipeTableViewCell.xib */; };
 		D7992AB01EC06FAD00969EE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7992AAF1EC06FAD00969EE1 /* AppDelegate.swift */; };
 		D7992AB21EC06FAD00969EE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7992AB11EC06FAD00969EE1 /* ViewController.swift */; };
 		D7992AB51EC06FAD00969EE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7992AB31EC06FAD00969EE1 /* Main.storyboard */; };
@@ -14,7 +16,6 @@
 		D7992ABA1EC06FAD00969EE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7992AB81EC06FAD00969EE1 /* LaunchScreen.storyboard */; };
 		D7992AC51EC06FAE00969EE1 /* JYSwipeTableViewCellDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7992AC41EC06FAE00969EE1 /* JYSwipeTableViewCellDemoTests.swift */; };
 		D7992AD01EC06FAE00969EE1 /* JYSwipeTableViewCellDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7992ACF1EC06FAE00969EE1 /* JYSwipeTableViewCellDemoUITests.swift */; };
-		D7992ADF1EC06FDB00969EE1 /* JYSwipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7992ADE1EC06FDB00969EE1 /* JYSwipeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D768ACA01EC16D5F0097CAC7 /* JYSwipeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYSwipeTableViewCell.swift; sourceTree = "<group>"; };
+		D768ACA11EC16D5F0097CAC7 /* JYSwipeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYSwipeTableViewCell.xib; sourceTree = "<group>"; };
 		D7992AAC1EC06FAD00969EE1 /* JYSwipeTableViewCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYSwipeTableViewCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7992AAF1EC06FAD00969EE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7992AB11EC06FAD00969EE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +51,6 @@
 		D7992ACB1EC06FAE00969EE1 /* JYSwipeTableViewCellDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYSwipeTableViewCellDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7992ACF1EC06FAE00969EE1 /* JYSwipeTableViewCellDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYSwipeTableViewCellDemoUITests.swift; sourceTree = "<group>"; };
 		D7992AD11EC06FAE00969EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7992ADE1EC06FDB00969EE1 /* JYSwipeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYSwipeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +133,8 @@
 		D7992ADD1EC06FC900969EE1 /* JYSwipeTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				D7992ADE1EC06FDB00969EE1 /* JYSwipeTableViewCell.swift */,
+				D768ACA01EC16D5F0097CAC7 /* JYSwipeTableViewCell.swift */,
+				D768ACA11EC16D5F0097CAC7 /* JYSwipeTableViewCell.xib */,
 			);
 			path = JYSwipeTableViewCell;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7992ABA1EC06FAD00969EE1 /* LaunchScreen.storyboard in Resources */,
+				D768ACA31EC16D5F0097CAC7 /* JYSwipeTableViewCell.xib in Resources */,
 				D7992AB71EC06FAD00969EE1 /* Assets.xcassets in Resources */,
 				D7992AB51EC06FAD00969EE1 /* Main.storyboard in Resources */,
 			);
@@ -274,7 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7992AB21EC06FAD00969EE1 /* ViewController.swift in Sources */,
-				D7992ADF1EC06FDB00969EE1 /* JYSwipeTableViewCell.swift in Sources */,
+				D768ACA21EC16D5F0097CAC7 /* JYSwipeTableViewCell.swift in Sources */,
 				D7992AB01EC06FAD00969EE1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,6 +532,7 @@
 				D7992AD61EC06FAE00969EE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7992AD71EC06FAE00969EE1 /* Build configuration list for PBXNativeTarget "JYSwipeTableViewCellDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +541,7 @@
 				D7992AD91EC06FAE00969EE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7992ADA1EC06FAE00969EE1 /* Build configuration list for PBXNativeTarget "JYSwipeTableViewCellDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +550,7 @@
 				D7992ADC1EC06FAE00969EE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
